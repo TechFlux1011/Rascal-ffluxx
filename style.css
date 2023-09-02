@@ -3,6 +3,7 @@ body {
     text-decoration: none;
     background-image: linear-gradient(to right, pink, maroon, teal);  
     z-index: -10;
+    max-width: 100dvw;
 }
 
 .container{
