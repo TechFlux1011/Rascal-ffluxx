@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    text-decoration: none;
+    background-image: linear-gradient(to right, pink, maroon, teal);  
+    z-index: -10;
+}
+
+.container{
+    display: flex;
+    margin: 5rem, 5rem;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction:column;
+    padding: 3rem;
+}
+
+.hero{
+    justify-content: space-around;
+    align-items: center;
+    padding: 2rem, 2rem, 2rem;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    /* font-optical-sizing: 100; */
+    /* font-feature-settings: "med2"; */
+    font-size: 4rem;
+    /* columns: 1, 2; */
+    color: aquamarine;
+    text-shadow: 30%;
+    
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    /* color-interpolation-filters: linearRGB; */
+    color:mediumturquoise;
+    text-shadow: 30%;
+    text-rendering: geometricPrecision;
+    text-decoration-thickness: 20;
+    outline-color: aquamarine;
+    text-justify: center;
+    text-emphasis-position: 5%;
+}
+@media-query{
+    min-width: 600px;
+    
+}
